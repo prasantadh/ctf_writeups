@@ -1,4 +1,4 @@
-# be-quick-or-be-dead-2
+# [be-quick-or-be-dead-2](https://2018game.picoctf.com/problems)
 
 ## Problem
 As you enjoy this [music](https://www.youtube.com/watch?v=CTt1vk9nM9c) even more, another executable [be-quick-or-be-dead-2](https://2018shell3.picoctf.com/static/fecde258147ce824e3e7524e79c1100d/be-quick-or-be-dead-2) shows up. Can you run this fast enough too? You can also find the executable in /problems/be-quick-or-be-dead-2_2_7e92e9cc48bad623da1c215c192bc919.
