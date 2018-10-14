@@ -210,4 +210,4 @@ picoCTF{the_fibonacci_sequence_can_be_done_fast_7e188834}
 [Inferior 1 (process 20880) exited normally]
 ```
 
-the 16 byte value was enough for the entire flag decryption
+the 8 byte value was enough for the entire flag decryption
