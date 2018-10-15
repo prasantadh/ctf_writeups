@@ -164,7 +164,7 @@ print(s)
 print(str(int(s,16)))
 ```
 
-that gives us 0xf70a9b59f70a9b58 = 17801211287834368856. let's try to patch it into the program to see if we get at least the first part of the flag right; but first we gotta get read of the fib()
+that gives us 0xf70a9b59f70a9b58 = 17801211287834368856. let's try to patch it into the program to see if we get at least the first part of the flag right; but first we gotta get rid of the fib()
 
 ```
 [0x0040085f]> s 0x0040087d
@@ -189,7 +189,7 @@ Written 5 byte(s) (call sym.header) = wx e895ffffff
 
 we can just call header() three times instead of calling set_timer() and get_key().
 
-not, back in gdb we set a breakpoint on print_flag, before the call to decrypt_flag, so we can change the value of the key
+now, back in gdb we set a breakpoint on print_flag, before the call to decrypt_flag, so we can change the value of the key
 
 ```
 0x400802 <print_flag+9>:	call   0x400530 <puts@plt>
