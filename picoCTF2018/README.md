@@ -503,7 +503,7 @@ RCX: 0xfffffffffffffff
 RDX: 0x70 ('p') <---- first char of "picoCTF{......}"
 ```
 
-so at this point i just told gdb to redirect the output to a file and print the value in $rdx every time it hit that breakpoint and run the program again from the start
+so at this point i just told gdb to redirect the output to a file and print the value in $rdx every time it hit that breakpoint and ran the program again from the start
 
 ```
 (gdb) set pagination off
@@ -519,6 +519,7 @@ Type commands for breakpoint(s) 1, one per line.
 End with a line saying just "end".
 >p/c $rdx
 >continue
+>end
 ```
 
 also had to rerun gdb without sourcing .gdbinit because with gdb-peda it crashed.
