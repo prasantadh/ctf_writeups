@@ -4,8 +4,8 @@
 
 [echooo](echooo/README.md)
 
-[learn gdb](learn gdb/README.md)
+[learn gdb]("learn gdb/README.md")
 
-[quackme up](quackme up/README.md)
+[quackme up]("quackme up/README.md")
 
 [keygen-me-1](keygen-me-1/README.md)
