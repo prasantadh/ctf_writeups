@@ -9,3 +9,5 @@
 [quackme up](quackme%20up/README.md)
 
 [keygen-me-1](keygen-me-1/README.md)
+
+[assembly-0-1-2-3-4](assembly-0-1-2-3-4/README.md)
