@@ -8,7 +8,7 @@
 remove the memory dump, comments and other stuff that throws errors with gcc from the file, then compile it with gcc
 
 ```
-——> gcc -m32 -g spec.S spec.o
+——> gcc -m32 -g spec.S -o spec.o
 [andrei@jacky 20:15:59] ~/Documents/pico
 ——> ./spec.o
 Segmentation fault (core dumped)
